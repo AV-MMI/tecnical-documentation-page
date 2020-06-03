@@ -74,7 +74,6 @@ section {
   cursor: pointer;
 }
 
-
 #main-doc {
   position: absolute;
   margin-left: 310px;
@@ -110,4 +109,40 @@ h3 span {
 
 .sub-text {
 	color: red;
+}
+
+/*Medias*/
+@media only screen and (max-width: 600px) {
+#nav-bar {
+	position: relative;
+	margin: 0;
+	top: 0;
+	width: 100%;
+	background-color: #000;
+}
+
+#nav-bar ul {
+  	list-style-type: disc;
+  	color: red;
+}
+
+#nav-bar li {
+  	display: flex;
+}
+
+#nav-bar a {
+	 color: #fff;
+	 text-decoration: none;
+	 border-left: 4px solid red;
+	 padding-left: 1rem;
+	 margin-top: 1rem;
+}
+
+#main-doc {
+    position: absolute;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
 }
